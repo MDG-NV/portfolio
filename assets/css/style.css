@@ -903,7 +903,7 @@ section {
 --------------------------------------------------------------*/
 .service-card-wrapper {
   position: relative;
-  box-shadow: 0px 2px 10px #FF7722;
+  box-shadow: 0px 5px 10px #FF7722;
   padding: 30px;
   border-radius: 25px;
   background: #50250A;;
@@ -1042,7 +1042,7 @@ section {
 --------------------------------------------------------------*/
 .client-prj-card {
   position: relative;
-  box-shadow: 0px 2px 15px #6d6d6d;
+  box-shadow: 0px 5px 5px #FF7722;
   padding: 20px;
   border-radius: 25px;
   background: #fff;
@@ -1086,6 +1086,12 @@ section {
   height: 32px;
   background: #eff2f8;
 }
+.client-store-links .social .youtube-icon{
+  color: #FF0000;
+}
+.client-store-links .social .youtube-icon:hover{
+  color: #FFF;
+}
 
 .client-store-links .social a i {
   color: #393939;
@@ -1123,7 +1129,7 @@ section {
 }
 .client-prj-heading h5{
   font-family: 'ChanticlBold';
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 0;
   color: #393939;
 }
@@ -1169,6 +1175,9 @@ section {
 }
 .test-class{
   animation: toggleAnimation 3s linear;
+}
+.social h1 {
+  font-size: 21px;
 }
 @keyframes toggleAnimation {
   0% {
@@ -1242,6 +1251,9 @@ section {
   .mobile-client-prj-hide-show{
     display: none;
   }
+  .social h1 {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px){
@@ -1301,6 +1313,9 @@ section {
     /* margin-top: 3%;
     display: flex;
     transition: ease-in-out 0.3s;   */
+  }
+  .social h1 {
+    font-size: 15px;
   }
 }
 
@@ -1469,7 +1484,7 @@ section {
 --------------------------------------------------------------*/
 .yt-player-card {
   position: relative;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 5px 5px #FF7722; */
   /* padding: 30px; */
   border-radius: 25px;
   background: #fff;
@@ -1615,7 +1630,7 @@ section {
 }
 
 .about-us-card{
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 5px #FF7722;
   padding: 20px;
   border-radius: 25px;
   background: #50250A;
@@ -2165,7 +2180,7 @@ section {
 --------------------------------------------------------------*/
 .team .member {
   position: relative;
-  box-shadow: 0px 2px 5px #393939;
+  box-shadow: 0px 5px 5px #393939;
   padding: 20px;
   border-radius: 25px;
   background: #fff;
@@ -2842,14 +2857,14 @@ section {
 --------------------------------------------------------------*/
 .testimonial-card{
   position: relative;
-  /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 5px 5px #FF7722;
   padding: 20px;
   border-radius: 25px;
   background: #fff;
   transition: 0.5s;
   height: auto;
   margin-top: 4%;
-  width: 750px;
+  width: 760px;
   height: 100%;
 
 }
