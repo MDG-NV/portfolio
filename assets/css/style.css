@@ -1685,7 +1685,7 @@ section {
     height: 140px;
   }
   .about-us-card{
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px #FF7722;
     padding: 20px;
     border-radius: 25px;
     background: #50250A;
