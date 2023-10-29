@@ -1728,6 +1728,231 @@ section {
 @media only screen and (max-width: 1200px) and (min-width: 1025px){
   
 }
+
+/*--------------------------------------------------------------
+# Our Team
+--------------------------------------------------------------*/
+.our-team-card-wrapper {
+  position: relative;
+  box-shadow: 0px 5px 10px #FF7722;
+  padding: 30px;
+  border-radius: 25px;
+  background: #50250A;
+  transition: 0.5s;
+  height: 175px;
+  width: 175px;
+  /* margin-right: 5%; */
+}
+.our-team-row{
+  margin-top: 5%;
+}
+.our-team-card-img-wrapper{
+  width: 70%;
+  height: 100%;
+  border-radius: 25%;
+  overflow: hidden;
+}
+.our-team-card-img-wrapper img{ 
+  width: 100%;
+  height: 100%;
+}
+.our-team-card-upper {
+  height: 70%;
+  width: 100%;
+}
+.our-team-card-lower {
+  height: 30%;
+  width: 100%;
+}
+.our-team-card-lower h1{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FF7722;
+  font-family: 'Rubik',sans-serif;
+  width: 100%
+}
+.our-team-card-lower h2{
+  font-size:8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FF7722;
+  font-family: 'Rubik',sans-serif;
+  width: 100%
+}
+.our-team-card-wrapper:hover {
+  transform: translateY(-10px);
+}
+.our-team-sec-img-wrapper{
+  position: absolute;
+  left: 20%;
+  bottom: 40%;
+  width: 110px;
+  height: 110px;
+}
+.our-team-sec-img-wrapper img{ 
+  width: 100%;
+  height: 100%;
+}
+.our-team-custom-row{
+  display: flex;
+  flex-direction: row;
+}
+.our-team-custom-row-column{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* margin-right: 10%;
+  align-items: center; */
+  align-items: start;
+}
+.our-team-custom-row-column1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* margin-right: 10%;
+  align-items: center; */
+}
+.our-team-mail{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FF7722;
+  font-family: 'Rubik',sans-serif;
+  width: 100%;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px){
+  .our-team-sec-img-wrapper {
+    position: absolute;
+    left: 15%;
+    bottom: 60%;
+    width: 50px;
+    height: 50px;
+  }
+  .our-team-card-wrapper{
+    height: 125px;
+    width: 125px;
+    margin: 5% 0;
+  }
+  .our-team-card-lower h1{
+    font-size: 10px;
+    width: 100%
+  }
+  .our-team-card-lower h2{
+    font-size: 6px;
+    width: 100%
+  }
+  .our-team-title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* margin-bottom: 20px; */
+    padding-bottom: 10px;
+    position: relative;
+    /* color: #37517e; */
+    color: #FF7722;
+    font-family: ChanticlBold;
+  }
+  .our-team-custom-row{
+    display: flex;
+    flex-direction: column;
+  }
+  .our-team-mail{
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FF7722;
+    font-family: 'Rubik',sans-serif;
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px){
+  .our-team-sec-img-wrapper {
+    position: absolute;
+    left: 20%;
+    bottom: 60%;
+    width: 50px;
+    height: 50px;
+  }
+  .our-team-card-wrapper{
+    height: 110px;
+    width: 110px;
+    margin: 5% 0;
+  }
+  .our-team-card-lower h1{
+    font-size: 10px;
+    width: 100%
+  }
+  .our-team-card-lower h2{
+    font-size: 6px;
+    width: 100%
+  }
+  .our-team-custom-row{
+    display: flex;
+    flex-direction: row;
+  }
+  .our-team-mail{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FF7722;
+    font-family: 'Rubik',sans-serif;
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+  .our-team-sec-img-wrapper {
+    position: absolute;
+    left: 32%;
+    bottom: 60%;
+    width: 50px;
+    height: 50px;
+  }
+  .our-team-card-wrapper{
+    height: 240px;
+    width: 210px;
+    margin: 2% 0;
+  }
+  .our-team-card-lower h1{
+    font-size: 20px;
+    width: 100%
+  }
+  .our-team-mail{
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FF7722;
+    font-family: 'Rubik',sans-serif;
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px){
+  .our-team-card-lower h1{
+    font-size: 25px;
+    width: 100%
+  }
+  .our-team-card-lower h1{
+    font-size: 20px;
+    width: 100%;
+  }
+  .our-team-mail{
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FF7722;
+    font-family: 'Rubik',sans-serif;
+    width: 100%;
+    margin-top: 5%;
+  }
+}
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
