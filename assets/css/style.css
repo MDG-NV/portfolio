@@ -437,7 +437,7 @@ h6 {
   /* background-image: linear-gradient(#FF7722,#F77F00,#BC3908,#222222); */
   /* background-image: linear-gradient(#FFFFFF,#F77F00,#FF7722); */
   animation-name: backgroundColorPalette;
-	animation-duration: 11s;
+	animation-duration: 6s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 	animation-timing-function: linear;
